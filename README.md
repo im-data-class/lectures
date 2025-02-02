@@ -9,3 +9,19 @@
 ## Scope
 
 - [Diagram](https://link.excalidraw.com/l/9PltHIQHZMD/79Vlmq74ngJ)
+
+## Server Application
+
+### Preparation
+
+- Install MySQL connector
+  - https://dev.mysql.com/downloads/connector/net/
+- Add Python Path to System Environment PATH
+  - `python -c "import os,sysconfig;print(sysconfig.get_path('scripts',os.name + '_user'))"`
+- Install additional packages
+  - `pip install "fastapi[standard]" mysql-connector-python jinja2`
+
+## Services
+
+- https://github.com/
+- https://railway.com/
